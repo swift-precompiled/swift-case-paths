@@ -29,11 +29,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/swift-precompiled/swift-syntax",
-            revision: "603.0.2-precompiled.2"
+            revision: "603.0.2-precompiled.3"
         ),
         .package(
             url: "https://github.com/swift-precompiled/xctest-dynamic-overlay",
-            revision: "1.11.0"
+            revision: "1.11.0-precompiled.1"
         )
     ],
     targets: [
@@ -47,8 +47,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CasePaths",
-            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePaths-75d391e25a678620f8560b5ea268ab89da926fe77ff88c7421564bb0999ca913.xcframework.zip",
-            checksum: "75d391e25a678620f8560b5ea268ab89da926fe77ff88c7421564bb0999ca913"
+            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1-precompiled.1/CasePaths-0c69c177c717dd745cdb2b773884b7145f3e21e6b4661017b8f93ad61f064b44.xcframework.zip",
+            checksum: "0c69c177c717dd745cdb2b773884b7145f3e21e6b4661017b8f93ad61f064b44"
         ),
         .target(
             name: "CasePathsCore_Aggregation",
@@ -66,8 +66,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CasePathsCore",
-            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePathsCore-2e30f3774417e4a4955662efc76a79fcfdfa3facd522eeb6fc5002ce90491626.xcframework.zip",
-            checksum: "2e30f3774417e4a4955662efc76a79fcfdfa3facd522eeb6fc5002ce90491626"
+            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1-precompiled.1/CasePathsCore-15e450b0ec1863988034a495061cf44af036d7988a7d9b4ffe443b6cec93854e.xcframework.zip",
+            checksum: "15e450b0ec1863988034a495061cf44af036d7988a7d9b4ffe443b6cec93854e"
         ),
         .target(
             name: "CasePathsMacrosSupport_Aggregation",
@@ -97,8 +97,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CasePathsMacrosSupport",
-            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePathsMacrosSupport-da058bb05208e7e6d91e847bd43a9636817a320ad0761e2ce95f648666380d74.xcframework.zip",
-            checksum: "da058bb05208e7e6d91e847bd43a9636817a320ad0761e2ce95f648666380d74"
+            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1-precompiled.1/CasePathsMacrosSupport-0d16806e9a7c1ace018c0f54bab54bbae634b6d37f715dded219c537986857b7.xcframework.zip",
+            checksum: "0d16806e9a7c1ace018c0f54bab54bbae634b6d37f715dded219c537986857b7"
         ),
         .macro(
             name: "CasePathsMacros",

@@ -44,8 +44,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CasePaths",
-            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePaths-af8968b40b063d44fb5f33f032940858a610d936881e086a483bc6bee6202d1c.xcframework.zip",
-            checksum: "af8968b40b063d44fb5f33f032940858a610d936881e086a483bc6bee6202d1c"
+            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePaths-9c58bb45e69e040213afe77f8ba5c0c57a93f9705d3c43a375776ff79fbd7cd8.xcframework.zip",
+            checksum: "9c58bb45e69e040213afe77f8ba5c0c57a93f9705d3c43a375776ff79fbd7cd8"
         ),
         .target(
             name: "CasePathsCore_Aggregation",
@@ -54,8 +54,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CasePathsCore",
-            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePathsCore-e5a5a824099239dbfc630ec665c22b241d40da76b98a9d8d64a40cc542a4f0fd.xcframework.zip",
-            checksum: "e5a5a824099239dbfc630ec665c22b241d40da76b98a9d8d64a40cc542a4f0fd"
+            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePathsCore-abfe22d99fcac8b83e8edf9239aca5d8c73a97717f794eb481bed19e2c478514.xcframework.zip",
+            checksum: "abfe22d99fcac8b83e8edf9239aca5d8c73a97717f794eb481bed19e2c478514"
         ),
         .target(
             name: "CasePathsMacrosSupport_Aggregation",
@@ -64,8 +64,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CasePathsMacrosSupport",
-            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePathsMacrosSupport-9587ece25ef5057318ae44de7c9aea0434ec3bfd5baa403ad46d2717cd750139.xcframework.zip",
-            checksum: "9587ece25ef5057318ae44de7c9aea0434ec3bfd5baa403ad46d2717cd750139"
+            url: "https://github.com/swift-precompiled/swift-case-paths/releases/download/1.9.1/CasePathsMacrosSupport-9a330c6bc8b9cd9b4c2d5b7f6d0fc2d6b904808b9dd4527e628193082e5c16d9.xcframework.zip",
+            checksum: "9a330c6bc8b9cd9b4c2d5b7f6d0fc2d6b904808b9dd4527e628193082e5c16d9"
         ),
         .macro(
             name: "CasePathsMacros",
